@@ -1,0 +1,29 @@
+{
+  "summary": "Frontend-only static SPA for 'Raj Home Massage' tested at mobile viewport (390x844) on the public URL. 28/29 automated checks passed. Above-the-fold requirement fully met (all hero elements including tagline strip, heading, rating badge, pricing, Book Now and Call Now buttons fit within 844px). All 15 services render in exact required order, Sports Massage and Trigger Point Therapy are separate cards, WhatsApp/tel hrefs are correct on all CTAs, SEO title/canonical/description/JSON-LD (ratingValue 4.9, reviewCount 124) are correct, no em dash and no 'rajhomehotelspatherapist.com' text present, footer copyright '© 2026 Raj Home Massage' present, X/Twitter link points to https://x.com/raj_therapist, Instagram href starts with https://www.instagram.com/massage_by_raj (has ?igsh tracking param). Zero backend/API calls made from frontend as required. Sitemap.xml and robots.txt are served with correct rajhomemassage.com domain references (Cloudflare edge injects additional AI-crawler managed content in robots.txt but original directives are preserved).",
+  "backend_issues": {"critical": [], "minor": []},
+  "frontend_issues": {
+    "ui_bugs": [
+      {"component": "Navbar mobile drawer", "issue": "During open->close transition (300ms scale-y animation), the drawer background bg-[#0B0B0C]/98 shows menu items visually bleeding over the hero section (see screenshot). Root cause: the arbitrary opacity /98 renders as translucent + the scale-y transition keeps content painted for 300ms after setOpen(false). This is only visible for ~300ms while the smooth-scroll to section happens, but on slower devices could look jarring. Also playwright is_visible() returned false immediately after toggle click because the scale-y-0 -> scale-y-100 transition had not yet mounted the drawer visually.", "selector": "[data-testid=\"navbar-mobile-menu\"]", "priority": "LOW"}
+    ],
+    "integration_issues": [],
+    "design_issues": [
+      {"screen": "Mobile navbar drawer", "issues": ["Consider bg-[#0B0B0C]/95 or full opaque bg-[#0B0B0C] with a subtle border, and add a small delay before setOpen(false) so the close animation happens AFTER scroll, or hide immediately (no transition) on close to avoid overlap flicker."]}
+    ]
+  },
+  "test_report_links": [],
+  "action_items": [
+    "(LOW) Improve mobile drawer close behavior: either make the drawer fully opaque (bg-[#0B0B0C] instead of /98) or set the drawer to hidden immediately (no scale-y transition) on close, or delay setOpen(false) until scroll starts, so links do not visually overlap the hero during the 300ms exit animation."
+  ],
+  "critical_code_review_comments": [
+    "SEO: react-helmet-async injects meta[name=description] in addition to the static one in public/index.html ('A product of emergent.sh'), so the page has two description tags. Not a bug (search engines take the last one and Helmet appends after static), but consider removing the placeholder description from public/index.html to be clean.",
+    "Instagram href includes ?igsh=... tracking param. Requirement only says handle link should open https://www.instagram.com/massage_by_raj — the base URL matches, so acceptable. Consider stripping the tracking param for cleanliness.",
+    "Tailwind arbitrary opacity /98 (e.g. bg-[#0B0B0C]/98) is not a standard Tailwind opacity step; while it works via arbitrary value support, use /95 or full opaque for the mobile drawer overlay to avoid see-through effect.",
+    "Cloudflare edge prepends a large managed-content block to robots.txt on the preview domain. This is preview-infrastructure specific and won't affect production rajhomemassage.com hosting, but be aware."
+  ],
+  "updated_files": [],
+  "success_rate": {"backend": "N/A (intentionally disabled)", "frontend": "97%"},
+  "seed_data_creation": "None",
+  "retest_needed": false,
+  "should_main_agent_self_test": true,
+  "context_for_next_testing_agent": "Frontend-only static React (CRA) app. Backend & MongoDB supervisor processes are intentionally stopped - do NOT flag their absence. All copy lives in /app/frontend/src/constants/content.js. Elfsight widgets (data-testid=elfsight-google-reviews-widget and elfsight-instagram-widget) are intentionally placeholder divs. Test primarily at mobile 390x844 viewport; above-the-fold hero is a hard requirement (currently passes). Public URL for testing: https://wellness-by-raj.preview.emergentagent.com. Zero backend API calls should be observed."
+}

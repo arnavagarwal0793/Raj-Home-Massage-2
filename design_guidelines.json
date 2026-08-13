@@ -1,0 +1,207 @@
+{
+  "project_name": "Raj Home Massage",
+  "app_type": "landing_page",
+  "theme": {
+    "mode": "dark",
+    "aesthetic": "Black and Gold Luxury Spa & Wellness",
+    "primary_viewport": "mobile-first"
+  },
+  "typography": {
+    "heading_font": {
+      "family": "Cormorant Garamond, Playfair Display, serif",
+      "google_font_url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap",
+      "usage": "H1, H2, H3, Section Titles, Card Headings, Hero Headline"
+    },
+    "body_font": {
+      "family": "Plus Jakarta Sans, sans-serif",
+      "usage": "Body copy, card descriptions, badges, pricing text, button labels"
+    },
+    "forbidden_fonts": ["Inter", "Space Grotesk", "Roboto"],
+    "scale_and_hierarchy": {
+      "hero_headline": "text-3xl sm:text-4xl lg:text-5xl font-serif font-semibold tracking-tight text-amber-100 leading-snug",
+      "section_title": "text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-amber-200 tracking-wide text-center",
+      "card_title": "text-lg sm:text-xl font-serif font-semibold text-amber-100",
+      "body_text": "text-sm sm:text-base font-sans font-normal text-zinc-300 leading-relaxed",
+      "badge_text": "text-xs font-sans font-semibold tracking-widest uppercase text-amber-400"
+    }
+  },
+  "colors": {
+    "palette_name": "Black & Gold Luxury Spa",
+    "tokens": {
+      "bg_primary": "#0B0B0C",
+      "bg_surface_dark": "#141416",
+      "bg_card": "#1C1C20",
+      "bg_card_hover": "#25252C",
+      "gold_primary": "#D4AF37",
+      "gold_bright": "#F3E5AB",
+      "gold_warm": "#E6C665",
+      "gold_dark_border": "#A38330",
+      "gold_glow": "rgba(212, 175, 55, 0.15)",
+      "text_primary": "#FAFAFA",
+      "text_secondary": "#A1A1AA",
+      "text_gold": "#E6C665",
+      "status_green": "#22C55E",
+      "whatsapp_green": "#25D366"
+    },
+    "tailwind_classes": {
+      "body_bg": "bg-[#0B0B0C] text-[#FAFAFA]",
+      "card_surface": "bg-[#1C1C20] border border-[#A38330]/30 hover:border-[#D4AF37]/60 shadow-lg shadow-black/50 transition-all duration-300",
+      "gold_gradient_button": "bg-gradient-to-r from-[#D4AF37] via-[#E6C665] to-[#D4AF37] text-black font-semibold shadow-md shadow-[#D4AF37]/20 hover:shadow-[#D4AF37]/40 hover:scale-[1.02] active:scale-[0.98] transition-all",
+      "gold_outline_button": "border border-[#D4AF37] text-[#E6C665] hover:bg-[#D4AF37]/10 hover:border-[#F3E5AB] transition-all font-medium",
+      "call_now_button": "bg-amber-950/80 border border-amber-500/50 text-amber-200 hover:bg-amber-900/90 hover:text-white transition-all font-medium",
+      "tagline_strip": "bg-amber-950/90 border-b border-amber-500/40 text-amber-200 py-2 px-4 text-xs sm:text-sm font-medium tracking-wide flex items-center justify-center gap-2"
+    }
+  },
+  "content_and_text_rules": {
+    "em_dash_rule": "CRITICAL: Replace all em dashes ('—') with standard hyphens ('-') across all headings, body text, buttons, and subtexts.",
+    "phone_number": "+91 98200 00000",
+    "whatsapp_link": "https://wa.me/919820000000?text=Hello%20Raj,%20I%20would%20like%20to%20book%20a%20massage%20session.",
+    "google_rating": "4.9 ★★★★★ (240+ Google Reviews)",
+    "mobile_fold_rule": "The hero tagline strip MUST be visible above the fold on mobile viewports (e.g., iPhone SE/12/14) without scrolling."
+  },
+  "section_order_and_specifications": [
+    {
+      "section_id": "navbar",
+      "name": "Navbar",
+      "components": [
+        "Circular Hands Logo Icon Mark (Gold SVG with 'Raj Home Massage')",
+        "Nav Links (Home, About, Services, Why Us, Areas, Reviews, Contact)",
+        "Book Now CTA Button",
+        "Mobile Hamburger Menu Drawer with smooth slide-in"
+      ],
+      "styling": "Sticky top-0 z-50 backdrop-blur-xl bg-[#0B0B0C]/90 border-b border-[#A38330]/30 px-4 py-3"
+    },
+    {
+      "section_id": "hero",
+      "name": "Hero Section",
+      "specifications": {
+        "mobile_above_fold": "Hero tagline strip visible above fold on mobile without scrolling",
+        "elements": [
+          "Tagline Strip: 'Luxury Home & Hotel Massage Service in Mumbai - Certified Male Therapist'",
+          "Hero Headline: 'Rejuvenate Mind & Body in the Comfort of Your Home or Hotel'",
+          "Google Rating Badge: 4.9 ★★★★★ (240+ Verified Reviews)",
+          "Body Copy: Premium therapeutic massage delivered to your doorstep. Tailored deep tissue, Swedish, and aroma relaxation by Raj - professional male therapist.",
+          "Dual CTAs: 'Book Now (WhatsApp)' + 'Call Now'"
+        ]
+      },
+      "styling": "Relative background with dark subtle spa ambient glow, high mobile density"
+    },
+    {
+      "section_id": "about_raj",
+      "name": "About Raj",
+      "elements": [
+        "Therapist Photo Placeholder (Professional portrait in spa attire)",
+        "Credentials & Certifications (10+ Years Experience, Govt Certified Anatomy Specialist, International Spa Trained)",
+        "Therapist Assignment Info: Clear note that all services are performed directly by Raj (certified male therapist) or vetted professional male partner therapist upon request."
+      ]
+    },
+    {
+      "section_id": "services_grid",
+      "name": "Services Grid (15 Massage Service Cards)",
+      "cards_count": 15,
+      "services_list": [
+        {"id": 1, "name": "Deep Tissue Relief Massage", "price": "₹2,499 / 60 min", "desc": "Firm pressure targeting deep muscle layers, knots, and chronic tension."},
+        {"id": 2, "name": "Swedish Relaxation Massage", "price": "₹2,199 / 60 min", "desc": "Gentle long gliding strokes with warm aromatic oils to soothe mind and body."},
+        {"id": 3, "name": "Aroma Therapy Essential Oil Spa", "price": "₹2,399 / 60 min", "desc": "Custom blended organic botanical essential oils for sensory stress relief."},
+        {"id": 4, "name": "Thai Traditional Stretch Massage", "price": "₹2,299 / 60 min", "desc": "Rhythmic compression and assisted yogic stretches for joint flexibility."},
+        {"id": 5, "name": "Hot Stone Therapeutic Massage", "price": "₹2,799 / 75 min", "desc": "Smooth heated volcanic basalt stones to melt away deep seated stiffness."},
+        {"id": 6, "name": "Sports Muscle Recovery Massage", "price": "₹2,599 / 60 min", "desc": "Targeted therapy for athletes to enhance circulation and speed recovery."},
+        {"id": 7, "name": "Ayurvedic Abhyanga Massage", "price": "₹2,499 / 60 min", "desc": "Traditional warm herbal oil massage to balance doshas and flush toxins."},
+        {"id": 8, "name": "Head, Neck & Shoulder Tension Relief", "price": "₹1,499 / 45 min", "desc": "Focused pressure point therapy targeting desk worker strain and migraines."},
+        {"id": 9, "name": "Reflexology Foot Sanctuary Massage", "price": "₹1,299 / 45 min", "desc": "Acupressure foot massage stimulating reflex points for holistic vitality."},
+        {"id": 10, "name": "Full Body Rejuvenation Ritual", "price": "₹3,499 / 90 min", "desc": "Our signature 90-minute treatment combining Swedish, Deep Tissue & Scrub."},
+        {"id": 11, "name": "Executive Stress Buster Therapy", "price": "₹1,999 / 45 min", "desc": "Quick energetic reset session designed for busy professionals in Mumbai."},
+        {"id": 12, "name": "Hotel Suite Luxury In-Room Spa", "price": "₹2,999 / 60 min", "desc": "Bespoke in-room spa experience with disposable linen and ambient sound."},
+        {"id": 13, "name": "Couple's Synchronized Relaxation", "price": "₹4,499 / 60 min", "desc": "Simultaneous side-by-side relaxation massage for couples in your suite."},
+        {"id": 14, "name": "Back Pain & Posture Correction", "price": "₹2,399 / 60 min", "desc": "Spinal alignment techniques relieving lower back pain and desk hunch."},
+        {"id": 15, "name": "Royal Gold Signature Massage", "price": "₹3,999 / 90 min", "desc": "Exclusive treatment using gold-infused massage oil and hot compress pack."}
+      ]
+    },
+    {
+      "section_id": "why_choose_us",
+      "name": "Why Choose Us (7 Trust Signal Cards)",
+      "cards_count": 7,
+      "trust_signals": [
+        "Certified & Background-Verified Male Therapist",
+        "100% Mobile Service - Hotel & Home Visits Across Mumbai",
+        "Premium Herbal Oils & Fresh Disposable Hygiene Kit Provided",
+        "5-Star Rated on Google Reviews with 240+ Authentic Feedback",
+        "Flexible Timings (8:00 AM - 11:00 PM Daily)",
+        "Strict Privacy & Absolute Confidentiality Guaranteed",
+        "Instant WhatsApp & Direct Phone Call Booking Confirmation"
+      ]
+    },
+    {
+      "section_id": "service_areas",
+      "name": "Service Areas",
+      "details": [
+        "Primary Coverage: Bandra, Juhu, Khar, Santa Cruz, Andheri, Powai, Worli, Lower Parel",
+        "South Mumbai: Available on prior appointment (Colaba, Marine Drive, Nariman Point)",
+        "Near Airport: Prompt 30-minute service to Airport Hotels (Vile Parle, Kalina, Marol)"
+      ]
+    },
+    {
+      "section_id": "testimonials",
+      "name": "Testimonials & Reviews",
+      "elements": [
+        "Google Rating Badge Header (4.9 Stars)",
+        "Elfsight Reviews Widget Placeholder (Interactive review carousel / grid fallback)"
+      ]
+    },
+    {
+      "section_id": "instagram_feed",
+      "name": "Instagram Feed",
+      "elements": [
+        "Elfsight Widget Placeholder (@rajhomemassage_mumbai feed placeholder grid)"
+      ]
+    },
+    {
+      "section_id": "booking_contact_cta",
+      "name": "Booking / Contact CTA",
+      "elements": [
+        "Phone Call Direct Link (+91 98200 00000)",
+        "WhatsApp Direct Booking Button",
+        "Studio Address & Location Details (Bandra West, Mumbai)",
+        "Operating Hours: 8:00 AM - 11:00 PM (All 7 Days)"
+      ]
+    },
+    {
+      "section_id": "footer",
+      "name": "Footer",
+      "elements": [
+        "Logo Mark & Brand Name",
+        "Full Address, Phone & Timing Info",
+        "Social Icons (Instagram, WhatsApp, Google Maps)",
+        "Copyright Notice"
+      ]
+    }
+  ],
+  "image_urls": {
+    "hero_spa_lighting": "https://images.unsplash.com/photo-1771574206191-9e7cd93d71d0?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "therapist_massage_action": "https://images.unsplash.com/photo-1745327883508-b6cd32e5dde5?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "spa_treatment_back": "https://images.unsplash.com/photo-1741522509438-a120c0bb5e88?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "relaxing_massage_woman": "https://images.unsplash.com/photo-1639162906614-0603b0ae95fd?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "hot_stone_oil": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?crop=entropy&cs=srgb&fm=jpg&q=85"
+  },
+  "testing_attributes": {
+    "rule": "Every button, input, navigation link, card, badge, and key text element MUST include a unique `data-testid` attribute in kebab-case format.",
+    "examples": [
+      "data-testid=\"hero-tagline-strip\"",
+      "data-testid=\"hero-book-now-button\"",
+      "data-testid=\"hero-call-now-button\"",
+      "data-testid=\"navbar-logo\"",
+      "data-testid=\"service-card-1\"",
+      "data-testid=\"why-choose-us-card-3\"",
+      "data-testid=\"service-area-chip-bandra\"",
+      "data-testid=\"whatsapp-cta-button\""
+    ]
+  },
+  "instructions_to_main_agent": [
+    "1. Follow the exact section order: Navbar, Hero, About Raj, Services Grid, Why Choose Us, Service Areas, Testimonials, Instagram Feed, Booking CTA, Footer.",
+    "2. Strict compliance with the 'no em dashes' rule: Replace '—' with '-' everywhere in copy.",
+    "3. Ensure the mobile hero tagline strip is strictly visible above the fold on mobile viewports.",
+    "4. Implement all 15 massage service cards with price tags and book buttons.",
+    "5. Implement all 7 trust signal cards in 'Why Choose Us'.",
+    "6. Include data-testid attributes on all interactive and key informational elements."
+  ]
+}
