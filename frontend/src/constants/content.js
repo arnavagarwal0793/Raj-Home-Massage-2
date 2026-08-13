@@ -57,40 +57,40 @@ export const SERVICES = [
     name: "Premium Full Body Massage",
     desc: "A deeply relaxing massage using warm oils and balanced pressure. Helps release daily stress and promotes complete physical and mental relaxation.",
     image:
-      "https://images.unsplash.com/photo-1639162906614-0603b0ae95fd?crop=entropy&cs=srgb&fm=jpg&q=85",
-    alt: "Therapist performing a premium full body oil massage",
+      "https://customer-assets-4nw71qhi.emergentagent.net/job_wellness-by-raj/artifacts/etoywghu_1.%20Premium%20Full%20Body%20Massage.jpeg",
+    alt: "Raj performing a premium full body oil massage in a candlelit hotel room",
   },
   {
     id: 2,
     name: "Couple Massage",
     desc: "A relaxing full body massage experience designed for two people to enjoy together in the same room. Performed by male and female therapists, ideal for couples, partners, friends, or family who wish to unwind together at home or in select hotels.",
     image:
-      "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?crop=entropy&cs=srgb&fm=jpg&q=85",
-    alt: "Therapist preparing warm massage oil for a couple massage session",
+      "https://customer-assets-4nw71qhi.emergentagent.net/job_wellness-by-raj/artifacts/wcn1atz7_2.%20Couple%20Massage%20%28Raj%20%2B%20female%20masseur%29.jpeg",
+    alt: "Raj and a female masseur performing a side by side couple massage",
   },
   {
     id: 3,
     name: "Signature Massage - By Raj",
     desc: "An exclusive slow-flow therapeutic bodywork technique developed over years of experience. Combines relaxation with therapeutic pressure for long-lasting relief and balance.",
     image:
-      "https://images.unsplash.com/photo-1783110688410-2cd866a2b67a?crop=entropy&cs=srgb&fm=jpg&q=85",
-    alt: "Moody gold-lit massage studio setting for Raj's signature massage",
+      "https://customer-assets-4nw71qhi.emergentagent.net/job_wellness-by-raj/artifacts/wci6hs9f_3.%20Signature%20Massage%20-%20By%20Raj%20%28Raj%20visible%29.jpeg",
+    alt: "Raj performing his signature therapeutic massage technique",
   },
   {
     id: 4,
     name: "Swedish Holistic Massage",
     desc: "A gentle and flowing full body massage focused on relaxation and mind-body harmony. Improves blood circulation and reduces stress.",
     image:
-      "https://images.unsplash.com/photo-1741522509438-a120c0bb5e88?crop=entropy&cs=srgb&fm=jpg&q=85",
-    alt: "Gentle flowing hands performing a Swedish holistic massage",
+      "https://customer-assets-4nw71qhi.emergentagent.net/job_wellness-by-raj/artifacts/sxev18it_4.%20Swedish%20Holistic%20Massage%20%28Raj%20visible%29.jpeg",
+    alt: "Raj performing a gentle flowing Swedish holistic massage",
   },
   {
     id: 5,
     name: "Lomi Lomi Massage",
     desc: "A traditional Hawaiian full body massage known for long, flowing, rhythmic strokes performed using hands and forearms. Helps release deep tension, improve circulation, and promote emotional as well as physical relaxation.",
     image:
-      "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?crop=entropy&cs=srgb&fm=jpg&q=85",
-    alt: "Rhythmic flowing strokes of a traditional Lomi Lomi massage",
+      "https://customer-assets-4nw71qhi.emergentagent.net/job_wellness-by-raj/artifacts/fjx31gcm_5.%20Lomi%20Lomi%20Massage%20%28Raj%20visible%29.jpeg",
+    alt: "Raj performing rhythmic flowing strokes of a traditional Lomi Lomi massage",
   },
   {
     id: 6,

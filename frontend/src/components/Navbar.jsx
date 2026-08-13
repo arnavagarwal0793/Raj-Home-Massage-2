@@ -21,13 +21,13 @@ export const Navbar = () => {
   return (
     <header
       data-testid="navbar"
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 px-3 sm:px-6 ${
         scrolled ? "py-2" : "py-4"
       }`}
     >
       <nav
         className={`max-w-6xl mx-auto flex items-center justify-between px-4 sm:px-6 py-3 rounded-full transition-all duration-300 ${
-          scrolled ? "glass-panel soft-3d mx-3 sm:mx-6" : "bg-transparent"
+          scrolled ? "glass-panel soft-3d" : "bg-transparent"
         }`}
       >
         <a

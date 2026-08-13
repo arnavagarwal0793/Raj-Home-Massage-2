@@ -11,6 +11,11 @@ module.exports = {
         headline: ["Anybody", "sans-serif"],
         body: ['"DM Sans"', "sans-serif"],
       },
+      borderRadius: {
+        lg: 'var(--radius)',
+        md: 'calc(var(--radius) - 2px)',
+        sm: 'calc(var(--radius) - 4px)'
+      },
       colors: {
         vapor: {
           background: "#f8f9ff",
@@ -41,13 +46,6 @@ module.exports = {
           tertiarycontainer: "#e0e9ef",
           ontertiarycontainer: "#60696e",
         },
-      },
-      borderRadius: {
-        lg: 'var(--radius)',
-        md: 'calc(var(--radius) - 2px)',
-        sm: 'calc(var(--radius) - 4px)'
-      },
-      colors: {
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
         card: {
