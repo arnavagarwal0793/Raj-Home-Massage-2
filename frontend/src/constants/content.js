@@ -137,7 +137,7 @@ export const SERVICES = [
     name: "Barefoot Massage",
     desc: "A deep therapeutic massage where controlled pressure is applied using the therapist's feet along with balance support. Provides broad, even pressure to release deep muscle tension and promote full-body relaxation.",
     image:
-      "https://images.unsplash.com/photo-1611073615830-9f76902c10fe?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "https://customer-assets-4nw71qhi.emergentagent.net/job_wellness-by-raj/artifacts/84y5obej_11.%20Barefoot%20Massage%20%28Raj%20visible%29.png",
     alt: "Barefoot massage technique providing deep even pressure",
   },
   {
@@ -145,7 +145,7 @@ export const SERVICES = [
     name: "Bamboo Massage",
     desc: "A therapeutic massage using warm bamboo sticks to apply deep, even pressure. Helps relieve muscle stiffness, improve circulation, and promote deep relaxation.",
     image:
-      "https://images.unsplash.com/photo-1577199019410-0d4567e04117?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "https://customer-assets-4nw71qhi.emergentagent.net/job_wellness-by-raj/artifacts/iy2kffq6_12.%20Bamboo%20Massage.webp",
     alt: "Warm bamboo sticks used for a therapeutic bamboo massage",
   },
   {
@@ -153,15 +153,15 @@ export const SERVICES = [
     name: "Anti-Cellulite / Firming Massage",
     desc: "A targeted massage to improve circulation and skin tone. Helps support body firming and contouring with regular sessions.",
     image:
-      "https://images.unsplash.com/photo-1767419294672-3ffb911a44ab?crop=entropy&cs=srgb&fm=jpg&q=85",
-    alt: "Warm ambient spa setting for an anti-cellulite firming massage",
+      "https://customer-assets-4nw71qhi.emergentagent.net/job_wellness-by-raj/artifacts/crhyif5q_13.%20Anti-Cellulite%20%20Firming%20Massage.jpeg",
+    alt: "Therapist performing anti-cellulite firming massage on legs",
   },
   {
     id: 14,
     name: "Lymphatic Drainage Massage",
     desc: "A gentle therapeutic massage designed to stimulate the lymphatic system and improve natural detoxification. Ideal for detox support, post-travel swelling, water retention, and overall wellness.",
     image:
-      "https://images.unsplash.com/photo-1712638932314-e2b185ca0930?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "https://customer-assets-4nw71qhi.emergentagent.net/job_wellness-by-raj/artifacts/lmcla2g9_14.%20Lymphatic%20Drainage%20Massage.webp",
     alt: "Gentle hand technique used in lymphatic drainage massage",
   },
   {
@@ -169,8 +169,8 @@ export const SERVICES = [
     name: "Hotel Massage for Travelers",
     desc: "Convenient in-room massage service for hotel guests and travelers near Mumbai Airport. Unwind after a long flight with a relaxing, hygienic massage in the comfort of your hotel room.",
     image:
-      "https://images.unsplash.com/photo-1629140727571-9b5c6f6267b4?crop=entropy&cs=srgb&fm=jpg&q=85",
-    alt: "Comfortable hotel room setting for an in-room travel massage",
+      "https://customer-assets-4nw71qhi.emergentagent.net/job_wellness-by-raj/artifacts/8qyzjf3e_15.%20Hotel%20Massage%20for%20Travelers.webp",
+    alt: "Raj performing in-room hotel massage for travelers near Mumbai Airport",
   },
 ];
 
