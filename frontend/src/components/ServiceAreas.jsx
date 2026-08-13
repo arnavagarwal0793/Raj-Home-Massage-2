@@ -10,30 +10,30 @@ export const ServiceAreas = () => {
     >
       <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-4 mb-10">
         <div>
-          <p className="text-xs uppercase tracking-[0.2em] text-[#D4AF37] font-semibold mb-3">
+          <p className="text-xs uppercase tracking-[0.2em] text-vapor-secondary font-bold mb-3">
             Where We Serve
           </p>
           <h2
             data-testid="service-areas-heading"
-            className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-[#F3E5AB]"
+            className="font-headline text-2xl sm:text-3xl lg:text-4xl font-extrabold text-vapor-onbackground tracking-tight"
           >
             Service Areas
           </h2>
         </div>
         <div
           data-testid="service-areas-airport-badge"
-          className="flex items-center gap-2 bg-[#1C1C20] border border-[#A38330]/40 rounded-full px-4 py-2"
+          className="flex items-center gap-2 glass-surface rounded-full px-4 py-2"
         >
-          <Plane className="w-4 h-4 text-[#D4AF37]" />
-          <span className="text-xs sm:text-sm text-zinc-300">
+          <Plane className="w-4 h-4 text-vapor-secondary" />
+          <span className="text-xs sm:text-sm text-vapor-onsurfacevariant font-medium">
             Near Mumbai International Airport
           </span>
         </div>
       </div>
 
       <div className="grid md:grid-cols-2 gap-6">
-        <div className="bg-[#141416] border border-[#A38330]/25 rounded-xl p-6 sm:p-8">
-          <h3 className="font-serif text-lg text-[#F3E5AB] font-semibold mb-5 pb-3 border-b border-[#A38330]/25">
+        <div className="glass-panel rounded-[2rem] p-6 sm:p-8">
+          <h3 className="font-headline text-lg font-bold text-vapor-onbackground mb-5 pb-3 border-b border-vapor-outlinevariant/40">
             Primary Areas
           </h3>
           <div className="flex flex-wrap gap-2.5" data-testid="service-areas-primary-list">
@@ -41,7 +41,7 @@ export const ServiceAreas = () => {
               <span
                 key={area}
                 data-testid={`service-area-chip-${area.toLowerCase().replace(/\s+/g, "-")}`}
-                className="bg-[#1C1C20] border border-[#A38330]/30 text-zinc-200 text-xs sm:text-sm px-4 py-2 rounded-full"
+                className="glass-surface text-vapor-onsurface text-xs sm:text-sm font-medium px-4 py-2 rounded-full"
               >
                 {area}
               </span>
@@ -49,12 +49,12 @@ export const ServiceAreas = () => {
           </div>
         </div>
 
-        <div className="bg-[#141416] border border-[#A38330]/25 rounded-xl p-6 sm:p-8">
-          <div className="flex items-center gap-2 mb-5 pb-3 border-b border-[#A38330]/25">
-            <h3 className="font-serif text-lg text-[#E6C665] font-semibold">
+        <div className="glass-panel rounded-[2rem] p-6 sm:p-8 bg-gradient-to-br from-white/40 to-vapor-secondarycontainer/20">
+          <div className="flex items-center gap-2 mb-5 pb-3 border-b border-vapor-outlinevariant/40">
+            <h3 className="font-headline text-lg font-bold text-vapor-secondary">
               South Mumbai
             </h3>
-            <span className="text-[10px] uppercase tracking-widest text-zinc-500 bg-[#0B0B0C] border border-[#A38330]/30 px-2 py-1 rounded-full ml-auto">
+            <span className="text-[10px] uppercase tracking-widest text-vapor-onsurfacevariant bg-white/60 px-2 py-1 rounded-full ml-auto">
               On Appointment Basis
             </span>
           </div>
@@ -63,7 +63,7 @@ export const ServiceAreas = () => {
               <span
                 key={area}
                 data-testid={`service-area-chip-${area.toLowerCase().replace(/\s+/g, "-")}`}
-                className="bg-[#0B0B0C] border border-[#A38330]/25 text-zinc-400 text-xs sm:text-sm px-4 py-2 rounded-full"
+                className="bg-white/50 border border-vapor-secondarycontainer text-vapor-onsurfacevariant text-xs sm:text-sm font-medium px-4 py-2 rounded-full"
               >
                 {area}
               </span>

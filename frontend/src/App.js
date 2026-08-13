@@ -16,7 +16,7 @@ function App() {
   return (
     <HelmetProvider>
       <SEO />
-      <div className="App bg-[#0B0B0C] min-h-screen">
+      <div className="App bg-vapor-background min-h-screen">
         <Navbar />
         <main>
           <Hero />

@@ -31,6 +31,14 @@ No em dashes anywhere. rajhomehotelspatherapist.com must never be mentioned.
 - Phone/WhatsApp links: tel:+919702424106, wa.me/919702424106.
 - No em dashes, no mention of competitor domain.
 
+## Design Correction (2026-07)
+- Initial build used a black/gold theme based on the text brief, which was WRONG. Actual
+  reference (Stitch screens + uploaded DESIGN.md "Vapor Zen") is a LIGHT glassmorphism
+  theme: #f8f9ff background, lavender/misty-blue mesh gradients, glass-panel cards
+  (blur 24px, translucent white, 1px border), hyper-rounded/pill shapes, Anybody
+  (headlines) + DM Sans (body) fonts. Full redesign completed across every section;
+  regenerated logo + About Raj portrait to match. Re-tested at 100% pass.
+
 ## What's Been Implemented (2026-07)
 - Full single-page app: Navbar (sticky, mobile drawer), Hero, About Raj, 15-card Services
   Grid, 7-card Why Choose Us, Service Areas (primary + South Mumbai + airport), Testimonials

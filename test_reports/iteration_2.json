@@ -1,0 +1,27 @@
+{
+  "summary": "Frontend-only re-test of Raj Home Massage after full 'Vapor Zen' light glassmorphism redesign. Tested at mobile 390x844 and desktop 1920x4000 on public URL https://wellness-by-raj.preview.emergentagent.com. ALL functional checks from iteration_1 still pass AND the new visual theme is correctly applied. Body background is light (rgb(248,249,255) = #f8f9ff) with lavender/misty-blue mesh gradient blobs visible. All 60+ glass panels render with backdrop-filter blur(24px), translucent white bg (rgba(255,255,255,0.45)), 1px white border, and 40px border-radius (pill/hyper-rounded). Headline font = Anybody, body font = DM Sans. Navbar is transparent at top (rgba(0,0,0,0)) and contains an inner glass pill on scroll. Mobile menu opens full-screen light mesh overlay with nav links + glass 'Book Now' pill. Hero above-the-fold requirement PASSES: hero-book-now-button bottom=524, hero-call-now-button bottom=586 (both well within 844px), tagline strip / heading / rating badge / pricing all visible. All 15 services render in exact required order with Sports Massage (#7) and Trigger Point Therapy (#8) as separate cards, each with image + name + desc + 'STARTING FROM ₹2,999' chip + Book Now WhatsApp link. All WhatsApp hrefs are https://wa.me/919702424106?text=... and tel hrefs are tel:+919702424106. SEO intact: title, meta description, canonical rajhomemassage.com, JSON-LD aggregateRating 4.9/124. No em dash present, no 'rajhomehotelspatherapist' text. Footer inside glass panel with '© 2026 Raj Home Massage', Instagram + X icons. New light-theme about portrait image loads (848px natural width). Zero /api/ network calls made from frontend. Elfsight widgets are intentional dashed-border placeholders (not flagged).",
+  "backend_issues": {"critical": [], "minor": []},
+  "frontend_issues": {
+    "ui_bugs": [],
+    "integration_issues": [],
+    "design_issues": [
+      {"screen": "Desktop hero", "issues": ["On 1920px viewport the glass hero card sits with ~470px of empty gradient space above it before the card starts, making the fold feel sparse on large monitors. Consider vertically centering the card in the initial viewport or reducing top padding on hero. Not a bug - mobile layout is tight and correct."]}
+    ]
+  },
+  "test_report_links": [],
+  "action_items": [],
+  "critical_code_review_comments": [
+    "Elfsight widget placeholders (google-reviews and instagram) still show literal 'placeholder - Elfsight embed code to be added here' text. Fine for now, but before production the actual Elfsight embed scripts must replace these divs.",
+    "Meta description tag from public/index.html ('A product of emergent.sh') is still present alongside the react-helmet-async-injected description - same observation as iteration_1. Non-blocking.",
+    "Instagram href retains ?igsh=... tracking param - cosmetic only.",
+    "Desktop hero has significant vertical whitespace above the glass card; consider min-height:auto or flex-centering on the hero container for large screens."
+  ],
+  "updated_files": [],
+  "success_rate": {"backend": "N/A (intentionally disabled)", "frontend": "100%"},
+  "test_credentials": "N/A - no auth",
+  "seed_data_creation": "None",
+  "retest_needed": false,
+  "should_main_agent_self_test": true,
+  "context_for_next_testing_agent": "Static React SPA. Backend + Mongo intentionally stopped - do NOT flag their absence and expect 0 /api/ calls. All copy lives in /app/frontend/src/constants/content.js. Design tokens/utilities in /app/frontend/src/index.css and tailwind.config.js under 'vapor' palette. Elfsight placeholders (data-testid=elfsight-google-reviews-widget, elfsight-instagram-widget) are intentional. Public URL: https://wellness-by-raj.preview.emergentagent.com. Mobile 390x844 above-the-fold hero (all CTAs visible without scrolling) is a hard requirement and currently passes with 258px of headroom.",
+  "rca of the issue": "N/A - no bugs found in this iteration."
+}

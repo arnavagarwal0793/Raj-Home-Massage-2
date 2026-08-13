@@ -17,11 +17,9 @@ export const BRAND = {
   rating: 4.9,
   reviewCount: 124,
   logoUrl:
-    "https://static.prod-images.emergentagent.com/jobs/10680772-ec22-4b8a-b3ba-167bc04cd82f/images/9692169b93475ccb337d5c29f58d47fe44507d819600bf87503367c742e23d0a.jpeg",
-  heroBgUrl:
-    "https://static.prod-images.emergentagent.com/jobs/10680772-ec22-4b8a-b3ba-167bc04cd82f/images/8929e6b9b4efcb7b65088bc636a73efc840c914e98625f9cb6217cda5f460f54.jpeg",
+    "https://static.prod-images.emergentagent.com/jobs/10680772-ec22-4b8a-b3ba-167bc04cd82f/images/c07773861b64d0f52a632a76b0dbc3947abd9343f07a6acf5dbb74008b2e209c.jpeg",
   aboutPortraitUrl:
-    "https://static.prod-images.emergentagent.com/jobs/10680772-ec22-4b8a-b3ba-167bc04cd82f/images/a398dec716fb9cfba63ef598ad400fc00fe0f62e576b2cffb5e1c013df32860d.jpeg",
+    "https://static.prod-images.emergentagent.com/jobs/10680772-ec22-4b8a-b3ba-167bc04cd82f/images/a6c4f638eabac57431ecc68b55deefc7f9918edf1cbda227213b1ce24ac81672.jpeg",
   canonicalUrl: "https://rajhomemassage.com",
 };
 
