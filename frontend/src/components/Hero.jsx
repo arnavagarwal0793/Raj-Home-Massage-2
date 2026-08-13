@@ -35,24 +35,6 @@ export const Hero = () => {
             Raj Home Massage
           </span>
 
-          <div
-            data-testid="hero-tagline-strip"
-            className="relative z-10 w-full rounded-2xl bg-white/50 border border-white/70 px-4 py-3 sm:px-6 sm:py-4 flex flex-col gap-1.5"
-          >
-            {HERO_TAGLINE_LINES.map((line, i) => (
-              <p
-                key={i}
-                className="text-[11px] sm:text-xs font-semibold tracking-wide text-vapor-secondary"
-              >
-                {line}
-              </p>
-            ))}
-            <p className="text-[11px] sm:text-xs font-medium tracking-wide text-vapor-onsurfacevariant flex items-center justify-center gap-1 pt-1.5 border-t border-vapor-outlinevariant/50 mt-1">
-              <MapPin className="w-3.5 h-3.5 text-vapor-secondary shrink-0" />
-              {HERO_LOCATION_LINE}
-            </p>
-          </div>
-
           <h1
             data-testid="hero-heading"
             className="relative z-10 font-headline text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-[1.15] tracking-tight mt-2"
@@ -106,12 +88,33 @@ export const Hero = () => {
           </div>
         </motion.div>
 
+        <motion.div
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.25 }}
+          data-testid="hero-tagline-strip"
+          className="mt-4 rounded-2xl bg-white/70 border border-white/80 backdrop-blur-sm px-5 py-4 sm:px-8 sm:py-5 flex flex-col items-center gap-1 shadow-sm"
+        >
+          {HERO_TAGLINE_LINES.map((line, i) => (
+            <p
+              key={i}
+              className="text-[11px] sm:text-xs font-semibold tracking-wide text-vapor-secondary text-center"
+            >
+              {line}
+            </p>
+          ))}
+          <p className="text-[11px] sm:text-xs font-medium tracking-wide text-vapor-onsurfacevariant flex items-center justify-center gap-1 pt-2 border-t border-vapor-outlinevariant/50 mt-1 text-center">
+            <MapPin className="w-3.5 h-3.5 text-vapor-secondary shrink-0" />
+            {HERO_LOCATION_LINE}
+          </p>
+        </motion.div>
+
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 0.7, delay: 0.3 }}
+          transition={{ duration: 0.7, delay: 0.4 }}
           data-testid="hero-body-text"
-          className="text-sm sm:text-base text-vapor-onsurfacevariant leading-relaxed max-w-2xl mx-auto mt-6 text-center"
+          className="text-sm sm:text-base text-vapor-onsurfacevariant leading-relaxed max-w-2xl mx-auto mt-4 text-center"
         >
           {HERO_BODY}
         </motion.p>

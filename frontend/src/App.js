@@ -11,6 +11,7 @@ import { Testimonials } from "@/components/Testimonials";
 import { InstagramFeed } from "@/components/InstagramFeed";
 import { BookingCTA } from "@/components/BookingCTA";
 import { Footer } from "@/components/Footer";
+import { FloatingWhatsApp } from "@/components/FloatingWhatsApp";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <BookingCTA />
         </main>
         <Footer />
+        <FloatingWhatsApp />
       </div>
     </HelmetProvider>
   );

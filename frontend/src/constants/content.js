@@ -97,8 +97,8 @@ export const SERVICES = [
     name: "Deep Tissue Massage",
     desc: "Targets deeper muscle layers to relieve stiffness, knots, and chronic pain. Ideal for back pain, neck pain, and posture-related tension.",
     image:
-      "https://images.unsplash.com/photo-1745327883508-b6cd32e5dde5?crop=entropy&cs=srgb&fm=jpg&q=85",
-    alt: "Firm hands applying deep tissue massage pressure on the back",
+      "https://customer-assets-4nw71qhi.emergentagent.net/job_wellness-by-raj/artifacts/aq3vwets_6.%20Deep%20Tissue%20Massage%20%28Raj%20visible%29.webp",
+    alt: "Raj performing deep tissue massage targeting deeper muscle layers",
   },
   {
     id: 7,
@@ -113,7 +113,7 @@ export const SERVICES = [
     name: "Trigger Point Therapy",
     desc: "Targeted pressure applied to specific trigger points to release chronic tension and pain. Ideal for clients with persistent muscle knots or referred pain patterns.",
     image:
-      "https://images.unsplash.com/photo-1709755491926-f7aa83748967?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "https://customer-assets-4nw71qhi.emergentagent.net/job_wellness-by-raj/artifacts/4lihzyg7_8.%20Trigger%20Point%20Therapy.jpeg",
     alt: "Therapist applying targeted trigger point pressure therapy",
   },
   {
@@ -121,7 +121,7 @@ export const SERVICES = [
     name: "Balinese Full Body Massage",
     desc: "A traditional massage combining deep pressure, rhythmic strokes, and gentle stretches. Promotes deep relaxation and restores energy balance.",
     image:
-      "https://images.unsplash.com/photo-1596178060671-7a80dc8059ea?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "https://customer-assets-4nw71qhi.emergentagent.net/job_wellness-by-raj/artifacts/droiwwyu_9.%20Balinese%20Full%20Body%20Massage.jpeg",
     alt: "Traditional Balinese full body massage setting",
   },
   {
@@ -129,7 +129,7 @@ export const SERVICES = [
     name: "Four Hand Massage",
     desc: "A synchronized massage performed by two therapists at once, offering double the relaxation and faster full-body relief - a truly indulgent therapeutic experience.",
     image:
-      "https://images.unsplash.com/photo-1591343395082-e120087004b4?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "https://customer-assets-4nw71qhi.emergentagent.net/job_wellness-by-raj/artifacts/kfrjafd2_10.%20Four%20Hand%20Massage.webp",
     alt: "Two therapists performing a synchronized four hand massage",
   },
   {

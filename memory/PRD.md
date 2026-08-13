@@ -68,3 +68,25 @@ No em dashes anywhere. rajhomehotelspatherapist.com must never be mentioned.
 - P2: Add design.md-driven refinements if client uploads it later.
 - P2: Consider true Next.js SSR migration only if client insists after reviewing current
   SEO setup (current CRA + react-helmet-async approach is crawlable by modern Googlebot).
+
+
+## Completed Changes Log
+
+### Session 3 (Latest)
+- Hero tagline strip moved outside main glass card into a separate standalone box below
+- Added floating WhatsApp button (green, fixed bottom-right, number 9702424106)
+- Services 6-10 updated with user-uploaded artifact images (Deep Tissue, Sports Massage, Trigger Point Therapy, Balinese, Four Hand Massage)
+
+### Session 2
+- Full Vapor Zen light theme redesign matching DESIGN.md
+- Hero and WhyChooseUs redesigned
+- Navbar centering bug fixed (mx-auto/mx-3 conflict)
+- Services 1-5 given user-uploaded images
+- Tailwind duplicate colors key merged/fixed
+
+### Session 1 - MVP
+- Complete 10-section landing page built
+- 15 massage service cards
+- SEO meta/schema, sitemap.xml, robots.txt
+- Clickable phone/WhatsApp/social links
+- Elfsight placeholders (Reviews + Instagram)
