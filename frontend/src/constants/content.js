@@ -6,9 +6,11 @@ export const BRAND = {
   whatsappHref: "https://wa.me/919702424106",
   whatsappBookingHref:
     "https://wa.me/919702424106?text=Hi%20Raj%2C%20I%27d%20like%20to%20book%20a%20massage%20session.",
-  instagramHref: "https://www.instagram.com/massage_by_raj",
+  instagramHref: "https://www.instagram.com/massage_by_raj?igsh=eHB0cHd2eXF5dDBq",
   instagramHandle: "@massage_by_raj",
   twitterHref: "https://x.com/raj_therapist",
+  googleBusinessHref: "https://share.google/AceIsYDw79w5bjB7Q",
+  redditHref: "https://www.reddit.com/u/RajHomeWellness/s/zoalfcOr9c",
   address:
     "Shop No 9, Prathmesh Complex, Near Country Club, Veera Desai Road, Andheri West - 400053, Mumbai, Maharashtra",
   timing: "07:00 AM - 11:00 PM",
@@ -17,9 +19,9 @@ export const BRAND = {
   rating: 4.9,
   reviewCount: 124,
   logoUrl:
-    "https://static.prod-images.emergentagent.com/jobs/10680772-ec22-4b8a-b3ba-167bc04cd82f/images/c07773861b64d0f52a632a76b0dbc3947abd9343f07a6acf5dbb74008b2e209c.jpeg",
+    "https://customer-assets-4nw71qhi.emergentagent.net/job_wellness-by-raj/artifacts/2ewstwuq_LOGO.png",
   aboutPortraitUrl:
-    "https://static.prod-images.emergentagent.com/jobs/10680772-ec22-4b8a-b3ba-167bc04cd82f/images/a6c4f638eabac57431ecc68b55deefc7f9918edf1cbda227213b1ce24ac81672.jpeg",
+    "https://customer-assets-4nw71qhi.emergentagent.net/job_wellness-by-raj/artifacts/xkc5o3ce_WhatsApp%20Image%202026-08-13%20at%2016.04.17.jpeg",
   canonicalUrl: "https://rajhomemassage.com",
 };
 
@@ -45,10 +47,11 @@ export const HERO_BODY =
   "I'm Raj, a certified male massage therapist with 15+ years of experience, offering professional massage therapy in Andheri West, just 15 minutes from Mumbai International Airport. I provide a clean, safe, and hygienic massage experience for men, women, and couples at home, hotels, and massage centres. My focus is on pain relief, stress release, deep relaxation, and complete body wellness.";
 
 export const THERAPIST_ASSIGNMENT = [
-  "Male clients - attended by Raj personally",
-  "Couple clients - Raj attends the male, female masseur for the female partner",
-  "Female masseur available on request",
-  "Female clients - attended by female masseur only",
+  "Male Clients - personally attended by Raj.",
+  "Female Clients - personally attended by Raj.",
+  "Couple Massage - Raj can personally provide the massage for the couple.",
+  "Couple Request for Male + Female Therapists - Raj can arrange a professional female therapist for the female partner, subject to prior appointment and availability.",
+  "Four Hand Massage - available with Raj and a professional female therapist by prior appointment and subject to availability.",
 ];
 
 export const SERVICES = [
@@ -153,8 +156,8 @@ export const SERVICES = [
     name: "Anti-Cellulite / Firming Massage",
     desc: "A targeted massage to improve circulation and skin tone. Helps support body firming and contouring with regular sessions.",
     image:
-      "https://customer-assets-4nw71qhi.emergentagent.net/job_wellness-by-raj/artifacts/crhyif5q_13.%20Anti-Cellulite%20%20Firming%20Massage.jpeg",
-    alt: "Therapist performing anti-cellulite firming massage on legs",
+      "https://customer-assets-4nw71qhi.emergentagent.net/job_wellness-by-raj/artifacts/zgemykbj_ChatGPT%20Image%20Aug%2017%2C%202026%2C%2001_06_43%20PM.png",
+    alt: "Raj performing anti-cellulite firming massage on a client",
   },
   {
     id: 14,
@@ -181,7 +184,7 @@ export const TRUST_SIGNALS = [
   { title: "Clean, Safe & Hygienic", icon: "ShieldCheck" },
   { title: "Home, Hotel & Massage Centre", icon: "Building2" },
   { title: "Andheri West - 15 mins from Mumbai Airport", icon: "PlaneTakeoff" },
-  { title: "Trusted by 1000+ Clients", icon: "Users" },
+  { title: "Trusted by 15,000+ Clients", icon: "Users" },
   { title: "Male, Female & Couples Welcome", icon: "HeartHandshake" },
   { title: "Specialist in Pain Relief & Relaxation", icon: "Sparkles" },
 ];
@@ -213,5 +216,118 @@ export const TESTIMONIALS = [
   {
     name: "Farhan K.",
     text: "I travel frequently for work and the hotel massage near the airport was a lifesaver after a long flight. Will book again.",
+  },
+];
+
+
+export const REVIEWS = [
+  {
+    name: "Sukhbinder Kaur",
+    rating: 5,
+    timeAgo: "2 months ago",
+    text: "I have been having massage sessions with Raj which has helped greatly with pain and stiffness in my legs, knees and feet. Raj is very experienced in identifying the source of the problem. At my last session I also had a facial and head massage which was very relaxing. Thank you Raj.",
+  },
+  {
+    name: "Shreedhar Mishra",
+    rating: 5,
+    timeAgo: "4 months ago",
+    text: "Had a great experience with Raj. Home service was smooth and comfortable. Good pressure and clean setup.",
+  },
+  {
+    name: "Shahanawaz Khan",
+    rating: 5,
+    timeAgo: "1 year ago",
+    text: "I recently booked a session with Raj from Raj Home Massage, and I must say it was one of the best decisions for my stiff neck pain. He is extremely professional, knowledgeable, and skilled in his technique.",
+  },
+  {
+    name: "Sanket Kulkarni",
+    rating: 5,
+    timeAgo: "1 year ago",
+    text: "Raj is fantastic with his work! He has a great understanding of the pressure, body type and techniques. He mixes up techniques across various massage types to customize an experience.",
+  },
+  {
+    name: "Partha Banerjee",
+    rating: 5,
+    timeAgo: "7 months ago",
+    text: "Very polite, professional and knowledgeable, will keep you engaged through the session. Recommended. God Bless.",
+  },
+  {
+    name: "Shreyas Jain",
+    rating: 5,
+    timeAgo: "2 years ago",
+    text: "Raj is one of the very few therapists that actually know what they're doing. He is professional, punctual and amazing at giving a relaxing massage. I've been suffering from acute neck and back pain since over a decade.",
+  },
+  {
+    name: "Satty Vlogs",
+    rating: 5,
+    timeAgo: "1 year ago",
+    text: "I was thoroughly impressed by the personalised attention. The therapist took the time to understand my specific needs and tailored the session accordingly, which made a huge difference. The massage itself was a perfect blend of technique and pressure, leaving me feeling rejuvenated and tension-free. I highly recommend this centre for anyone looking for a personalised, high-quality massage service!",
+  },
+  {
+    name: "Elephant GoGo",
+    rating: 5,
+    timeAgo: "1 year ago",
+    text: "I'm from Taiwan! The massage I got this time was amazing! And they even come to my hotel to do it!! Highly recommend!",
+  },
+  {
+    name: "Mritunjay Pathak",
+    rating: 5,
+    timeAgo: "1 year ago",
+    text: "Raj is a great therapist. He is meticulous and skilled.",
+  },
+  {
+    name: "Vanishah Soobhug",
+    rating: 5,
+    timeAgo: "1 year ago",
+    text: "Thank you sir there is magic in your hands - had a headache I thought I wouldn't be able to make my flight but magic happened instantly. Feel so blessed and grateful to have met you. My husband has become your fan. Highly recommend your service from Mauritius - looking forward to meeting you soon.",
+  },
+  {
+    name: "Shiva Kasyap",
+    rating: 5,
+    timeAgo: "1 year ago",
+    text: "Highly Professional Massage, Best Therapist in Mumbai",
+  },
+];
+
+export const FAQ_ITEMS = [
+  {
+    q: "Do you offer home massage in Mumbai?",
+    a: "Yes, Raj provides professional home massage across Andheri West, Andheri East, Juhu, Bandra, Goregaon, Powai and nearby areas by appointment.",
+  },
+  {
+    q: "Is a female therapist available?",
+    a: "A professional female therapist is available on explicit client request, subject to prior appointment and availability.",
+  },
+  {
+    q: "Do you offer couple massage?",
+    a: "Yes, couple massage is available at home, hotel and massage centre. Raj personally attends the session.",
+  },
+  {
+    q: "What areas do you cover in Mumbai?",
+    a: "Primary areas include Andheri West, Andheri East, Lokhandwala, Juhu, Versova, Bandra, Marol, Goregaon and Powai. South Mumbai on appointment.",
+  },
+  {
+    q: "What are your timings?",
+    a: "07:00 AM to 11:00 PM. For couple bookings, flexible timing is available on request.",
+  },
+  {
+    q: "How do I book an appointment?",
+    a: "Call or WhatsApp Raj directly on +91 9702424106 to confirm your preferred service, location, and time.",
+  },
+  {
+    q: "Does Raj bring the massage table, sheets and oils for home visits?",
+    a: "Yes, all equipment and supplies are brought to your location for home and hotel appointments.",
+  },
+  {
+    q: "Is there a travel fee outside Andheri?",
+    a: "Please contact Raj directly for travel arrangements and pricing for areas outside the primary service zone.",
+  },
+  {
+    q: "What payment methods are accepted?",
+    a: "Please contact Raj directly to confirm accepted payment methods.",
+  },
+  {
+    q: "Are hotel appointments subject to hotel permission?",
+    a: "Yes, hotel massage appointments are subject to hotel guest permission and availability.",
   },
 ];

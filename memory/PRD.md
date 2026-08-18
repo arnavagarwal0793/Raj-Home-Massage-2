@@ -72,7 +72,23 @@ No em dashes anywhere. rajhomehotelspatherapist.com must never be mentioned.
 
 ## Completed Changes Log
 
-### Session 3 (Latest)
+### Session 4 (Latest - MD file implementation)
+- Updated logo to real LOGO.png (in navbar, footer, favicon)
+- Updated About section therapist photo with newly uploaded image
+- Updated Anti-Cellulite service card image to male therapist
+- Updated hero H1 to "Professional Massage Therapy by Raj"
+- Updated client count everywhere: 1,000+ -> 15,000+
+- Updated therapist assignment with exact 5-item wording from MD file
+- Replaced Elfsight Reviews placeholder with 11 hardcoded real Google reviews + "View all reviews" button
+- Replaced Elfsight Instagram placeholder with 4 social profile cards (Google Business, Instagram, X, Reddit)
+- Added all 4 social links to footer and contact section
+- Added Google Map embed in Service Areas section
+- Added FAQ section (10 questions from MD file)
+- Added Professional Standards section
+- Updated SEO: title, description, HealthAndBeautyBusiness schema, Person schema, FAQPage schema, Service schemas (15), Review schemas (11)
+- Added GA4, GTM placeholder tags + Search Console verification tag in index.html
+- Added reddit and googleBusiness URLs to BRAND config
+- Price tags restored to all 15 service cards (as per MD file)
 - Hero tagline strip moved outside main glass card into a separate standalone box below
 - Added floating WhatsApp button (green, fixed bottom-right, number 9702424106)
 - Services 6-10 updated with user-uploaded artifact images (Deep Tissue, Sports Massage, Trigger Point Therapy, Balinese, Four Hand Massage)

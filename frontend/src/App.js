@@ -8,6 +8,8 @@ import { ServicesGrid } from "@/components/ServicesGrid";
 import { WhyChooseUs } from "@/components/WhyChooseUs";
 import { ServiceAreas } from "@/components/ServiceAreas";
 import { Testimonials } from "@/components/Testimonials";
+import { FAQ } from "@/components/FAQ";
+import { ProfessionalStandards } from "@/components/ProfessionalStandards";
 import { InstagramFeed } from "@/components/InstagramFeed";
 import { BookingCTA } from "@/components/BookingCTA";
 import { Footer } from "@/components/Footer";
@@ -26,6 +28,8 @@ function App() {
           <WhyChooseUs />
           <ServiceAreas />
           <Testimonials />
+          <FAQ />
+          <ProfessionalStandards />
           <InstagramFeed />
           <BookingCTA />
         </main>

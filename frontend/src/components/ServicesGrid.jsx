@@ -1,5 +1,5 @@
 import { MessageCircle } from "lucide-react";
-import { BRAND, SERVICES } from "@/constants/content";
+import { BRAND, SERVICES, SERVICE_PRICE_LABEL } from "@/constants/content";
 
 export const ServicesGrid = () => {
   return (
@@ -45,15 +45,21 @@ export const ServicesGrid = () => {
               <h3 className="font-headline text-lg font-bold text-vapor-onbackground mb-2 tracking-tight">
                 {service.name}
               </h3>
-              <p className="text-sm text-vapor-onsurfacevariant leading-relaxed flex-grow mb-4">
+              <p className="text-sm text-vapor-onsurfacevariant leading-relaxed flex-grow mb-3">
                 {service.desc}
               </p>
+              <span
+                data-testid={`service-price-${service.id}`}
+                className="text-xs font-bold uppercase tracking-wide text-vapor-secondary bg-vapor-secondarycontainer/40 border border-vapor-secondarycontainer px-3 py-1.5 rounded-full whitespace-nowrap self-start"
+              >
+                {SERVICE_PRICE_LABEL}
+              </span>
               <a
                 href={BRAND.whatsappBookingHref}
                 target="_blank"
                 rel="noopener noreferrer"
                 data-testid={`service-book-now-${service.id}`}
-                className="btn-3d mt-4 w-full flex items-center justify-center gap-2 bg-vapor-secondary text-vapor-onsecondary font-semibold uppercase tracking-wider text-xs py-3 rounded-full"
+                className="btn-3d mt-3 w-full flex items-center justify-center gap-2 bg-vapor-secondary text-vapor-onsecondary font-semibold uppercase tracking-wider text-xs py-3 rounded-full"
               >
                 <MessageCircle className="w-3.5 h-3.5" />
                 Book Now

@@ -71,6 +71,19 @@ export const ServiceAreas = () => {
           </div>
         </div>
       </div>
+
+      <div className="mt-6 glass-panel rounded-[2rem] overflow-hidden" data-testid="google-map-embed">
+        <iframe
+          title="Raj Home Massage Location - Andheri West, Mumbai"
+          src="https://maps.google.com/maps?q=Prathmesh+Complex+Veera+Desai+Road+Andheri+West+Mumbai+400053&output=embed&z=15"
+          width="100%"
+          height="320"
+          style={{ border: 0, display: "block" }}
+          allowFullScreen=""
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        />
+      </div>
     </section>
   );
 };

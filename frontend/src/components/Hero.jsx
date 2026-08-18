@@ -39,9 +39,9 @@ export const Hero = () => {
             data-testid="hero-heading"
             className="relative z-10 font-headline text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-[1.15] tracking-tight mt-2"
           >
-            <span className="text-vapor-onbackground">Welcome to </span>
+            <span className="text-vapor-onbackground">Professional Massage </span>
             <span className="text-vapor-secondary">
-              Raj Home Massage
+              Therapy by Raj
             </span>
           </h1>
 

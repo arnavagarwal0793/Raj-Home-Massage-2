@@ -1,4 +1,4 @@
-import { MessageCircle, PhoneCall, MapPin, Clock, Heart } from "lucide-react";
+import { MessageCircle, PhoneCall, MapPin, Clock, Heart, Instagram, Twitter } from "lucide-react";
 import { BRAND } from "@/constants/content";
 
 export const BookingCTA = () => {
@@ -64,6 +64,21 @@ export const BookingCTA = () => {
           >
             <Heart className="w-3.5 h-3.5 text-vapor-secondary" fill="currentColor" strokeWidth={0} />
             {BRAND.couplesNote}
+          </div>
+
+          <div className="flex items-center gap-3 mt-4" data-testid="contact-social-links">
+            <a href={BRAND.googleBusinessHref} target="_blank" rel="noopener noreferrer" aria-label="Google Business Profile" data-testid="contact-google-link"
+              className="w-10 h-10 rounded-full glass-surface flex items-center justify-center text-xs font-bold text-blue-600 hover:scale-110 transition-all">G</a>
+            <a href={BRAND.instagramHref} target="_blank" rel="noopener noreferrer" aria-label="Instagram" data-testid="contact-instagram-link"
+              className="w-10 h-10 rounded-full glass-surface flex items-center justify-center text-vapor-onsurfacevariant hover:text-vapor-secondary transition-all">
+              <Instagram className="w-4 h-4" />
+            </a>
+            <a href={BRAND.twitterHref} target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)" data-testid="contact-twitter-link"
+              className="w-10 h-10 rounded-full glass-surface flex items-center justify-center text-vapor-onsurfacevariant hover:text-vapor-secondary transition-all">
+              <Twitter className="w-4 h-4" />
+            </a>
+            <a href={BRAND.redditHref} target="_blank" rel="noopener noreferrer" aria-label="Reddit" data-testid="contact-reddit-link"
+              className="w-10 h-10 rounded-full glass-surface flex items-center justify-center text-xs font-bold text-orange-500 hover:scale-110 transition-all">R</a>
           </div>
         </div>
       </div>

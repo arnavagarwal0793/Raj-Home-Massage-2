@@ -41,8 +41,8 @@ export const Navbar = () => {
         >
           <img
             src={BRAND.logoUrl}
-            alt="Raj Home Massage logo - circular hands emblem"
-            className="w-9 h-9 rounded-full object-cover"
+            alt="Raj Home Massage logo"
+            className="w-10 h-10 object-contain"
           />
           <span className="font-headline text-base sm:text-lg font-bold text-vapor-onbackground tracking-tight leading-none">
             Raj Home Massage
