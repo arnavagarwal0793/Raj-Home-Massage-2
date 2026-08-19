@@ -63,7 +63,7 @@ export const Hero = () => {
             data-testid="hero-pricing-anchor"
             className="relative z-10 font-headline text-lg sm:text-xl font-bold text-vapor-primary tracking-tight"
           >
-            Massages Starting from ₹2,999
+            Massage Services Starting From ₹3,000
           </p>
 
           <div className="relative z-10 flex flex-col sm:flex-row gap-3 w-full sm:w-auto mt-1">

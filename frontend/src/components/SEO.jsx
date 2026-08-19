@@ -72,9 +72,9 @@ const SERVICE_SCHEMAS = SERVICES.map((s) => ({
   serviceType: "Massage Therapy",
   offers: {
     "@type": "Offer",
-    price: "2999",
+    price: s.price.replace("₹", "").replace(",", ""),
     priceCurrency: "INR",
-    description: "Starting from ₹2,999",
+    description: s.price,
   },
   bookingURL: "tel:+919702424106",
 }));

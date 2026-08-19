@@ -1,5 +1,5 @@
 import { MessageCircle } from "lucide-react";
-import { BRAND, SERVICES, SERVICE_PRICE_LABEL } from "@/constants/content";
+import { BRAND, SERVICES } from "@/constants/content";
 
 export const ServicesGrid = () => {
   return (
@@ -20,9 +20,6 @@ export const ServicesGrid = () => {
         </h2>
         <p className="text-sm sm:text-base text-vapor-onsurfacevariant">
           15 therapeutic massage experiences, tailored for men, women and couples.
-        </p>
-        <p className="mt-2 text-sm font-semibold text-vapor-secondary">
-          Starting from ₹2,999
         </p>
       </div>
 
@@ -52,7 +49,7 @@ export const ServicesGrid = () => {
                 data-testid={`service-price-${service.id}`}
                 className="text-xs font-bold uppercase tracking-wide text-vapor-secondary bg-vapor-secondarycontainer/40 border border-vapor-secondarycontainer px-3 py-1.5 rounded-full whitespace-nowrap self-start"
               >
-                {SERVICE_PRICE_LABEL}
+                {service.price}
               </span>
               <a
                 href={BRAND.whatsappBookingHref}

@@ -58,6 +58,7 @@ export const SERVICES = [
   {
     id: 1,
     name: "Premium Full Body Massage",
+    price: "₹6,000",
     desc: "A deeply relaxing massage using warm oils and balanced pressure. Helps release daily stress and promotes complete physical and mental relaxation.",
     image:
       "https://customer-assets-4nw71qhi.emergentagent.net/job_wellness-by-raj/artifacts/etoywghu_1.%20Premium%20Full%20Body%20Massage.jpeg",
@@ -66,6 +67,8 @@ export const SERVICES = [
   {
     id: 2,
     name: "Couple Massage",
+    price: "₹10,000",
+    priceFixed: true,
     desc: "A relaxing full body massage experience designed for two people to enjoy together in the same room. Performed by male and female therapists, ideal for couples, partners, friends, or family who wish to unwind together at home or in select hotels.",
     image:
       "https://customer-assets-4nw71qhi.emergentagent.net/job_wellness-by-raj/artifacts/wcn1atz7_2.%20Couple%20Massage%20%28Raj%20%2B%20female%20masseur%29.jpeg",
@@ -74,6 +77,7 @@ export const SERVICES = [
   {
     id: 3,
     name: "Signature Massage - By Raj",
+    price: "₹5,000",
     desc: "An exclusive slow-flow therapeutic bodywork technique developed over years of experience. Combines relaxation with therapeutic pressure for long-lasting relief and balance.",
     image:
       "https://customer-assets-4nw71qhi.emergentagent.net/job_wellness-by-raj/artifacts/wci6hs9f_3.%20Signature%20Massage%20-%20By%20Raj%20%28Raj%20visible%29.jpeg",
@@ -82,6 +86,7 @@ export const SERVICES = [
   {
     id: 4,
     name: "Swedish Holistic Massage",
+    price: "₹5,000",
     desc: "A gentle and flowing full body massage focused on relaxation and mind-body harmony. Improves blood circulation and reduces stress.",
     image:
       "https://customer-assets-4nw71qhi.emergentagent.net/job_wellness-by-raj/artifacts/sxev18it_4.%20Swedish%20Holistic%20Massage%20%28Raj%20visible%29.jpeg",
@@ -90,6 +95,7 @@ export const SERVICES = [
   {
     id: 5,
     name: "Lomi Lomi Massage",
+    price: "₹4,000",
     desc: "A traditional Hawaiian full body massage known for long, flowing, rhythmic strokes performed using hands and forearms. Helps release deep tension, improve circulation, and promote emotional as well as physical relaxation.",
     image:
       "https://customer-assets-4nw71qhi.emergentagent.net/job_wellness-by-raj/artifacts/fjx31gcm_5.%20Lomi%20Lomi%20Massage%20%28Raj%20visible%29.jpeg",
@@ -98,6 +104,7 @@ export const SERVICES = [
   {
     id: 6,
     name: "Deep Tissue Massage",
+    price: "₹3,000",
     desc: "Targets deeper muscle layers to relieve stiffness, knots, and chronic pain. Ideal for back pain, neck pain, and posture-related tension.",
     image:
       "https://customer-assets-4nw71qhi.emergentagent.net/job_wellness-by-raj/artifacts/aq3vwets_6.%20Deep%20Tissue%20Massage%20%28Raj%20visible%29.webp",
@@ -106,14 +113,16 @@ export const SERVICES = [
   {
     id: 7,
     name: "Sports Massage",
+    price: "₹3,000",
     desc: "Focused massage to release muscle fatigue and improve recovery. Improves flexibility, mobility, and overall muscle performance.",
     image:
-      "https://images.unsplash.com/photo-1650044252595-cacd425982ff?crop=entropy&cs=srgb&fm=jpg&q=85",
-    alt: "Therapist performing a sports recovery massage",
+      "https://customer-assets-4nw71qhi.emergentagent.net/job_wellness-by-raj/artifacts/pg3ls22j_7.%20Sports%20Massage%20%28Raj%20visible%29.webp",
+    alt: "Raj performing a sports recovery massage on an athlete",
   },
   {
     id: 8,
     name: "Trigger Point Therapy",
+    price: "₹4,000",
     desc: "Targeted pressure applied to specific trigger points to release chronic tension and pain. Ideal for clients with persistent muscle knots or referred pain patterns.",
     image:
       "https://customer-assets-4nw71qhi.emergentagent.net/job_wellness-by-raj/artifacts/4lihzyg7_8.%20Trigger%20Point%20Therapy.jpeg",
@@ -122,6 +131,7 @@ export const SERVICES = [
   {
     id: 9,
     name: "Balinese Full Body Massage",
+    price: "₹5,000",
     desc: "A traditional massage combining deep pressure, rhythmic strokes, and gentle stretches. Promotes deep relaxation and restores energy balance.",
     image:
       "https://customer-assets-4nw71qhi.emergentagent.net/job_wellness-by-raj/artifacts/droiwwyu_9.%20Balinese%20Full%20Body%20Massage.jpeg",
@@ -130,6 +140,7 @@ export const SERVICES = [
   {
     id: 10,
     name: "Four Hand Massage",
+    price: "₹12,000",
     desc: "A synchronized massage performed by two therapists at once, offering double the relaxation and faster full-body relief - a truly indulgent therapeutic experience.",
     image:
       "https://customer-assets-4nw71qhi.emergentagent.net/job_wellness-by-raj/artifacts/kfrjafd2_10.%20Four%20Hand%20Massage.webp",
@@ -138,6 +149,7 @@ export const SERVICES = [
   {
     id: 11,
     name: "Barefoot Massage",
+    price: "₹3,000",
     desc: "A deep therapeutic massage where controlled pressure is applied using the therapist's feet along with balance support. Provides broad, even pressure to release deep muscle tension and promote full-body relaxation.",
     image:
       "https://customer-assets-4nw71qhi.emergentagent.net/job_wellness-by-raj/artifacts/84y5obej_11.%20Barefoot%20Massage%20%28Raj%20visible%29.png",
@@ -146,6 +158,7 @@ export const SERVICES = [
   {
     id: 12,
     name: "Bamboo Massage",
+    price: "₹5,000",
     desc: "A therapeutic massage using warm bamboo sticks to apply deep, even pressure. Helps relieve muscle stiffness, improve circulation, and promote deep relaxation.",
     image:
       "https://customer-assets-4nw71qhi.emergentagent.net/job_wellness-by-raj/artifacts/iy2kffq6_12.%20Bamboo%20Massage.webp",
@@ -154,6 +167,7 @@ export const SERVICES = [
   {
     id: 13,
     name: "Anti-Cellulite / Firming Massage",
+    price: "₹5,000",
     desc: "A targeted massage to improve circulation and skin tone. Helps support body firming and contouring with regular sessions.",
     image:
       "https://customer-assets-4nw71qhi.emergentagent.net/job_wellness-by-raj/artifacts/zgemykbj_ChatGPT%20Image%20Aug%2017%2C%202026%2C%2001_06_43%20PM.png",
@@ -162,6 +176,7 @@ export const SERVICES = [
   {
     id: 14,
     name: "Lymphatic Drainage Massage",
+    price: "₹6,000",
     desc: "A gentle therapeutic massage designed to stimulate the lymphatic system and improve natural detoxification. Ideal for detox support, post-travel swelling, water retention, and overall wellness.",
     image:
       "https://customer-assets-4nw71qhi.emergentagent.net/job_wellness-by-raj/artifacts/lmcla2g9_14.%20Lymphatic%20Drainage%20Massage.webp",
@@ -170,6 +185,7 @@ export const SERVICES = [
   {
     id: 15,
     name: "Hotel Massage for Travelers",
+    price: "₹8,000",
     desc: "Convenient in-room massage service for hotel guests and travelers near Mumbai Airport. Unwind after a long flight with a relaxing, hygienic massage in the comfort of your hotel room.",
     image:
       "https://customer-assets-4nw71qhi.emergentagent.net/job_wellness-by-raj/artifacts/8qyzjf3e_15.%20Hotel%20Massage%20for%20Travelers.webp",
@@ -177,7 +193,7 @@ export const SERVICES = [
   },
 ];
 
-export const SERVICE_PRICE_LABEL = "Starting from ₹2,999";
+export const SERVICE_PRICE_LABEL = "Starting From ₹3,000";
 
 export const TRUST_SIGNALS = [
   { title: "15+ Years Certified Experience", icon: "Award" },
